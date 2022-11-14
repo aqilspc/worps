@@ -18,15 +18,18 @@
       </head>
 
       <body>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg" id="oke1">
           <section class="container tm-page-1-content">
             <div class="row">
               <div class="col-md-6 ml-auto tm-text-white">
                 <header><h1>WORPS</h1></header>
                 <p>Weapon Operational Readiness Prediction System 
-                <br><br>In this Regulation of the Minister of Defense, what is meant by: 1. Main Equipment of the Armed Forces System of the Indonesian Armed Forces, hereinafter referred to as the TNI's Alutsista, are the main equipment and its supporters which constitute a weapon system that has the capability to carry out the main tasks of the TNI.</p>
-                
-                  <a href="#tm-section-2" class="btn btn-danger">Explore...</a>
+                <br><br>
+                 In this Regulation of the Minister of Defense, what is meant by: 1. Main Equipment of the Armed Forces System of the Indonesian Armed Forces, hereinafter referred to as the TNI's Alutsista, are the main equipment and its supporters which constitute a weapon system that has the capability to carry out the main tasks of the TNI.
+                </p>
+                  <a href="#tm-section-2" class="btn btn-danger">Explore <i class="fa fa-globe"></i></a>
+                  &nbsp;
+                  <a href="#" data-toggle="modal" data-target="#worps" class="btn btn-danger">Read Doc <i class="fa fa-book"></i></a>
               </div>
             </div>
 
@@ -40,9 +43,14 @@
               <article class="col-md-6 tm-article tm-bg-white-transparent">
                 <header><h2>SFFAORP</h2></header>
                 <b>System For Fighter Aircraft Operational Readiness Prediction.</b>
-
                 <a href="#tm-section-3" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                  <i class="fa fa-plane"></i></a>
+                 <br>
+                  <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
+                  data-toggle="modal" data-target="#sffaorp">
+                    Read Doc
+                    <i class="fa fa-book"></i>
+                </a>
               </article>
 
               <article class="col-md-6 tm-article tm-bg-white-transparent">
@@ -50,7 +58,13 @@
                 <b>Combat Aircraft Operational Readiness Prediction <ms style="opacity: 0;">efdsfdsfdfdsfdsfdsfdsfs</ms></b>
                 <br>
                   <a href="#tm-section-3" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
-                    <i class="fa fa-plane"></i></a>
+                    <i class="fa fa-plane"></i>
+                </a>
+                <br>
+                <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
+                  data-toggle="modal" data-target="#caorp">Read Doc
+                    <i class="fa fa-book"></i>
+                </a>
               </article>
             </div>
           </section>
@@ -60,7 +74,7 @@
             <div class="row1">
               <div class="col-xl-6 col-md-8 ml-auto">
                 <article class="tm-bg-white-transparent-page3">
-                  <header><h5 class="tm-bg-white">Weapon Operational Readiness is important?</h5></header>
+                  <header><h5 class="tm-bg-white">Is Weapon Operational Readiness important?</h5></header>
                   <p class="tm-bg-white2">The importance of Weapon Operational Readiness, is to avoid some undesirable possibilities, such as accidents, and of course maximize the use of weapons.</p>
                     <a href="#tm-section-4" class="btn btn-danger tm-btn-right">Read More</a>
                 </article>
@@ -144,13 +158,74 @@
             </div>
 
             <div class="footer">
-              <p>Copyright © {{date('Y')}} Abdulloh Aqil - WORPS
-                . Designed by <a rel="nofollow" href="{{url('/')}}" target="_parent">Tooplate</a></p>
+              <p>Copyright Designed © {{date('Y')}} WORPS Team
+                 <a rel="nofollow" href="#oke1" ><i class="fa fa-plane"></i></a></p>
               </div>
             </div>
             
           </div>
 
+
+          <!-- modal doc -->
+           <!-- The Modal -->
+           <div class="modal" id="worps">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="modal-footer">
+                <a type="button" class="btn btn-danger" download href="{{url('doc/worps/worps.pdf')}}">Download <i class="fa fa-download"></i></a>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
+                </div>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <p align="center">Manual Book Weapon Operational Readiness Prediction System.</p>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/worps/worps.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="sffaorp">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+              <div class="modal-footer">
+                <a type="button" class="btn btn-danger" download href="{{url('doc/sffaorp/sffaorp.pdf')}}">Download <i class="fa fa-download"></i></a>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
+                </div>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <p align="center">Manual Book System For Fighter Aircraft Operational Readiness Prediction.</p>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/sffaorp/sffaorp.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal" id="caorp">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-footer">
+                <a type="button" class="btn btn-danger" download href="{{url('doc/caorp/caorp.pdf')}}">Download <i class="fa fa-download"></i></a>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
+                </div>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <p align="center">Manual Book Combat Aircraft Operational Readiness Prediction.</p>
+                  
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/caorp/caorp.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <!-- load JS files -->
           <script src="js/jquery-1.11.3.min.js"></script>        <!-- jQuery (https://jquery.com/download/) -->
@@ -161,6 +236,7 @@
 
           <!-- Magnific Popup core JS file -->
           <script src="js/jquery.magnific-popup.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
           
 
           <script>
