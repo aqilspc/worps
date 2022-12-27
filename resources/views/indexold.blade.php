@@ -27,9 +27,9 @@
                 <br><br>
                  In this Regulation of the Minister of Defense, what is meant by: 1. Main Equipment of the Armed Forces System of the Indonesian Armed Forces, hereinafter referred to as the TNI's Alutsista, are the main equipment and its supporters which constitute a weapon system that has the capability to carry out the main tasks of the TNI.
                 </p>
-                  <a href="#tm-section-2" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
+                  <a href="#tm-section-2" class="btn btn-danger">Explore <i class="fa fa-globe"></i></a>
                   &nbsp;
-                 <!--  <a href="#" data-toggle="modal" data-target="#worps" class="btn btn-danger">Read Doc <i class="fa fa-book"></i></a> -->
+                  <a href="#" data-toggle="modal" data-target="#worps" class="btn btn-danger">Read Doc <i class="fa fa-book"></i></a>
               </div>
             </div>
 
@@ -45,12 +45,12 @@
                 <b>System For Fighter Aircraft Operational Readiness Prediction.</b>
                 <a href="http://riset.cairg.my.id:5000" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                  <i class="fa fa-plane"></i></a>
-                <!--  <br>
+                 <br>
                   <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
                   data-toggle="modal" data-target="#sffaorp">
                     Read Doc
                     <i class="fa fa-book"></i>
-                </a> -->
+                </a>
               </article>
 
               <article class="col-md-6 tm-article tm-bg-white-transparent">
@@ -60,18 +60,9 @@
                   <a href="https://yovita-reactjs.vercel.app/login" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                     <i class="fa fa-plane"></i>
                 </a>
-             <!--    <br>
+                <br>
                 <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
                   data-toggle="modal" data-target="#caorp">Read Doc
-                    <i class="fa fa-book"></i>
-                </a> -->
-              </article>
-            </div>
-            <div class="row">
-              <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 93%;">
-                <header><h2 align="center">Documentation</h2></header>
-                  <a href="https://www.flipsnack.com/ABF98A5569B/worps-manual-book/full-view.html" class="btn btn-danger ml-auto mr-0 tm-btn-block"
-                 target="_blank"> Read Doc
                     <i class="fa fa-book"></i>
                 </a>
               </article>
