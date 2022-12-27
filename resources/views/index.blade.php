@@ -43,7 +43,7 @@
               <article class="col-md-6 tm-article tm-bg-white-transparent">
                 <header><h2>SFFAORP</h2></header>
                 <b>System For Fighter Aircraft Operational Readiness Prediction.</b>
-                <a href="http://riset.cairg.my.id:5000" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
+                <a href="https://sffaorp.worps.my.id" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                  <i class="fa fa-plane"></i></a>
                 <!--  <br>
                   <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
@@ -57,7 +57,7 @@
                 <header><h2>CAORP</h2></header>
                 <b>Combat Aircraft Operational Readiness Prediction <ms style="opacity: 0;">efdsfdsfdfdsfdsfdsfdsfs</ms></b>
                 <br>
-                  <a href="https://yovita-reactjs.vercel.app/login" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
+                  <a href="https://caorp.worps.my.id" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                     <i class="fa fa-plane"></i>
                 </a>
              <!--    <br>
