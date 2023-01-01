@@ -70,7 +70,8 @@
             <div class="row">
               <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 93%;">
                 <header><h2 align="center">Documentation</h2></header>
-                  <a href="https://www.flipsnack.com/ABF98A5569B/worps-manual-book/full-view.html" class="btn btn-danger ml-auto mr-0 tm-btn-block"
+                  <a href="https://www.flipsnack.com/ABF98A5569B/manual-book-worps-v-2/full-view.html" 
+                     class="btn btn-danger ml-auto mr-0 tm-btn-block"
                  target="_blank"> Read Doc
                     <i class="fa fa-book"></i>
                 </a>
