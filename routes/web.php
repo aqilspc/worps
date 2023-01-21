@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 //admin area
-Route::get('//', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/manual-book', [HomeController::class, 'book']);
 

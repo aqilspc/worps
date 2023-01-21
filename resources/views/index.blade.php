@@ -70,7 +70,7 @@
             <div class="row">
               <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 93%;">
                 <header><h2 align="center">Documentation</h2></header>
-                  <a href="https://www.flipsnack.com/ABF98A5569B/manual-book-worps-v-2/full-view.html" 
+                  <a href="{{url('manual-book')}}" 
                      class="btn btn-danger ml-auto mr-0 tm-btn-block"
                  target="_blank"> Read Doc
                     <i class="fa fa-book"></i>
@@ -79,6 +79,7 @@
             </div>
           </section>
         </div>
+
         <div id="tm-section-3" class="parallax-window" data-parallax="scroll" data-image-src="img/3.webp">
           <section class="container tm-page-1-content">
             <div class="row1">
@@ -92,8 +93,8 @@
             </div>
           </section>
         </div>
-        <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img/4.jpg">
 
+        <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img/4.jpg">
           <div class="row tm-page-4-content">
             <article  class="col-xs-6 col-md-4 tm-bg-white-transparent">
               <header><h3>Register First</h3></header>
@@ -109,6 +110,7 @@
             </article>
           </div>
         </div>
+
         <div class="parallax-window" data-parallax="scroll" data-image-src="img/4.webp">
           <div class="container">
             <div class="row">
@@ -128,7 +130,8 @@
           </div>
         </div>
 
-        <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/5.jpg" id="contact">
+        <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/5.jpg" 
+             id="contact">
           <div class="container ">
             <div class="row1 ">
               <div class="col-xs-12">
@@ -156,13 +159,6 @@
                 <div class="tm-address-box">
                   <p>Please visit <a rel="nofollow" href="{{url('/')}}" target="_parent">our contact page</a> for more information about simple contact form to send email to your inbox. Maecenas condimentum tincidunt leo. Paesent scelerisque erat placerat tempus laoreet. </p>
                   <br>
-                 <!--  <address>
-                    <b>Our Address</b><br>
-                    <br>
-                    440-660 Proin mauris enim,<br>
-                    dignissim sit amet ligula id,<br>
-                    finibus tempus erat 10200
-                  </address> -->
                 </div>
               </div>
             </div>
@@ -172,7 +168,6 @@
                  <a rel="nofollow" href="#oke1" ><i class="fa fa-plane"></i></a></p>
               </div>
             </div>
-            
           </div>
 
 
