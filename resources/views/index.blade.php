@@ -242,7 +242,7 @@
         <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/6.jpeg" 
              id="team">
           <div class="container ">
-            <div class="row1" style="margin-bottom: 2rem;">
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
               <div class="col-xs-12">
                 <header style="color: white;"><h5 align="center">Our Team</h5></header>
               </div>
@@ -254,29 +254,29 @@
                   <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/pakarwin.png">
                         </div>
-                        <h3 class="title">Williamson</h3>
-                        <span class="post">Web Developer</span>
+                        <h3 class="title">Artificial Intelligence</h3>
+                        <span class="post">Marsekal Pertama TNI Dr. Ir. Arwin Datumaya Wahyudi Sumari, S.T., M.T., IPU, ASEAN Eng., ACPE</span>
                     </div>
                 </div>
 
                 <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/ika.png">
                         </div>
-                        <h3 class="title">Kristiana</h3>
-                        <span class="post">Web Designer</span>
+                        <h3 class="title">Artificial Intelligence</h3>
+                        <span class="post">Ika Noer Syamsiana, S.T., M.T., Ph.D.<br><br><iki style="opacity: 0;">sdsdsdsdsdsd</iki></span>
                     </div>
                 </div> 
                   <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/yoga.png">
                         </div>
-                        <h3 class="title">Kristiana</h3>
-                        <span class="post">Web Designer</span>
+                        <h3 class="title">Information System</h3>
+                        <span class="post">Pramana Yoga Saputra, S.Kom., M.MT.<br><br><iki style="opacity: 0;">sdsdsdsdsdsd</iki></span>
                     </div>
                 </div>
               </div>
@@ -287,28 +287,28 @@
                 <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team ">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/farra.png">
                         </div>
-                        <h3 class="title">Kristiana</h3>
-                        <span class="post">Web Designer</span>
+                        <h3 class="title">Artificial Intelligence</h3>
+                        <span class="post">Farradila Ayu Damayanti, S.Tr.Kom.</span>
                     </div>
                 </div>
                 <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team ">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/yovita.jpeg" style="max-height: 190px;max-width: 190px;">
                         </div>
-                        <h3 class="title">Kristiana</h3>
-                        <span class="post">Web Designer</span>
+                        <h3 class="title">Artificial Intelligence</h3>
+                        <span class="post">Yovita Farah Dela, S.Tr.Kom. <iki style="opacity: 0;">sdsdsdsdsdsd</iki></span>
                     </div>
                 </div>
                 <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team ">
                         <div class="pic">
-                            <img src="img/avatar.webp">
+                            <img src="team/aqil.webp" style="max-height: 190px;max-width: 190px;">
                         </div>
                         <h3 class="title">Web Developer</h3>
-                        <span class="post">Abdulloh Aqil</span>
+                        <span class="post">Abdulloh Aqil <br><iki style="opacity: 0;">sdsdsdsdsdsd</iki></span>
                     </div>
                 </div>
             </div>
