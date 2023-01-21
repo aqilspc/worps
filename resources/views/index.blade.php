@@ -15,6 +15,115 @@
   <link rel="icon" type="image/x-icon" href="/img/1.jpg">
   <!-- Magnific Popup core CSS file -->
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <style>
+      .our-team{
+
+
+    border-radius: 15px;
+
+    text-align: center;
+
+
+    padding: 20px 15px 30px;
+
+    background: #ffffffc4;
+
+
+}
+
+.our-team .pic{
+
+
+    /*background: #ffffffc4;*/
+
+    padding: 10px;
+
+    margin-bottom: 25px;
+
+
+    display: inline-block;
+
+    width: 100%;
+
+    height: 100%;
+
+    transition: all 0.5s ease 0s;
+
+}
+
+.our-team:hover .pic{
+
+    background: #C66666;
+
+    border-radius: 50%;
+
+}
+
+.pic img{
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 50%;
+
+}
+
+.our-team .title{
+
+
+    font-weight: 600;
+
+    color: #2e282a;
+
+    text-transform: capitalize;
+
+
+    display: block;
+
+    font-size: 20px;
+
+    margin: 0 0 7px 0;
+
+}
+
+.our-team .post{
+
+
+    color: black;
+
+    text-transform: capitalize;
+
+
+    display: block;
+
+    font-size: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+@media only screen and (min-width:1025px) {
+  .cilikkan {
+    max-width: 25%;
+    margin-left: 3.6em;
+  }
+}
+
+@media only screen and (min-width:1281px) {
+  .cilikkan {
+    max-width: 25%;
+    margin-left: 3.6em;
+  }
+}
+
+@media only screen and (min-width:961px) {
+  .cilikkan {
+    max-width: 25%;
+    margin-left: 3.6em;
+  }
+}
+      </style>
       </head>
 
       <body>
@@ -130,6 +239,88 @@
           </div>
         </div>
 
+        <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/6.jpeg" 
+             id="team">
+          <div class="container ">
+            <div class="row1" style="margin-bottom: 2rem;">
+              <div class="col-xs-12">
+                <header style="color: white;"><h5 align="center">Our Team</h5></header>
+              </div>
+            </div>
+          
+              <div class="col-lg-12" style="margin-bottom: 1rem;">
+                <div class="row" style="">
+
+                  <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                </div> 
+                  <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12" style="margin-bottom: 1rem;">
+                <div class="row">
+                <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team ">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                </div>
+                <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team ">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Kristiana</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+                </div>
+                <div class="col-md-4 cilikkan" style="margin-bottom: 1rem;">
+                    <div class="our-team ">
+                        <div class="pic">
+                            <img src="img/avatar.webp">
+                        </div>
+                        <h3 class="title">Web Developer</h3>
+                        <span class="post">Abdulloh Aqil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+           
+
+          
+            </div>
+          </div>
+
+
         <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/5.jpg" 
              id="contact">
           <div class="container ">
@@ -173,64 +364,8 @@
 
           <!-- modal doc -->
            <!-- The Modal -->
-           <div class="modal" id="worps">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-              <div class="modal-footer">
-                <a type="button" class="btn btn-danger" download href="{{url('doc/worps/worps.pdf')}}">Download <i class="fa fa-download"></i></a>
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
-                </div>
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <p align="center">Manual Book Weapon Operational Readiness Prediction System.</p>
-                </div>
-                <!-- Modal body -->
-                <div class="modal-body">
-                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/worps/worps.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="modal" id="sffaorp">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-              <div class="modal-footer">
-                <a type="button" class="btn btn-danger" download href="{{url('doc/sffaorp/sffaorp.pdf')}}">Download <i class="fa fa-download"></i></a>
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
-                </div>
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <p align="center">Manual Book System For Fighter Aircraft Operational Readiness Prediction.</p>
-                </div>
-                <!-- Modal body -->
-                <div class="modal-body">
-                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/sffaorp/sffaorp.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="modal" id="caorp">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-footer">
-                <a type="button" class="btn btn-danger" download href="{{url('doc/caorp/caorp.pdf')}}">Download <i class="fa fa-download"></i></a>
-                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
-                </div>
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <p align="center">Manual Book Combat Aircraft Operational Readiness Prediction.</p>
-                  
-                </div>
-                
-                <!-- Modal body -->
-                <div class="modal-body">
-                  <iframe id="fred" style="border:1px solid #666CCC" title="PDF in an i-Frame" src="{{url('doc/caorp/caorp.pdf')}}" frameborder="1" scrolling="auto" height="500" width="100%" ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- load JS files -->
           <script src="js/jquery-1.11.3.min.js"></script>        <!-- jQuery (https://jquery.com/download/) -->
