@@ -152,9 +152,9 @@
                 <header style="color: white;"><h5 align="center">Introduction</h5></header>
               </div>
             </div>
-            <iframe style="width:100%;height:700px" src="https://online.fliphtml5.com/dvpzr/xugy/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+              <iframe style="width:100%;height:700px" src="https://online.fliphtml5.com/dvpzr/xugy/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+          </div>
         </div>
-      </div>
 
         <div id="tm-section-2" class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg">
           <section class="container tm-page-1-content tm-page-2">
@@ -223,6 +223,35 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+             data-image-src="img/3.webp">
+          <div class="container ">
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
+              <div class="col-xs-12">
+                <header style="color: white;"><h5 align="center">Berita Acara Serah Terima</h5></header>
+              </div>
+            </div>
+            <div class="col-lg-12 fullkabeh" align="center" style="margin-bottom: 1rem;">
+             <img src="img/bast.jpg" class="img-responsive zoom" style="max-height: 961px;">
+           </div>
+          </div>
+        </div>
+
+        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+             data-image-src="img/4.jpg">
+          <div class="container ">
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
+              <div class="col-xs-12">
+                <header style="color: white;"><h5 align="center">Surat Pencatatan Ciptaan</h5></header>
+              </div>
+            </div>
+            <div class="col-lg-12 fullkabeh" align="center" style="margin-bottom: 1rem;">
+             <img src="img/sertif1.jpg" class="img-responsive zoom" style="max-height: 512px;">
+             <img src="img/sertif2.jpg" class="img-responsive zoom" style="max-height: 512px;">
+           </div>
           </div>
         </div>
 
