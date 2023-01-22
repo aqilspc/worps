@@ -138,13 +138,23 @@
                 </p>
                   <a href="#tm-section-2" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
                   &nbsp;
-                 <!--  <a href="#" data-toggle="modal" data-target="#worps" class="btn btn-danger">Read Doc <i class="fa fa-book"></i></a> -->
               </div>
             </div>
 
           </section>
         </div>
 
+        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+             data-image-src="img/3.webp">
+          <div class="container ">
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
+              <div class="col-xs-12">
+                <header style="color: white;"><h5 align="center">Introduction</h5></header>
+              </div>
+            </div>
+            <iframe style="width:100%;height:700px" src="https://online.fliphtml5.com/dvpzr/xugy/"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe>
+        </div>
+      </div>
 
         <div id="tm-section-2" class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg">
           <section class="container tm-page-1-content tm-page-2">
@@ -154,12 +164,6 @@
                 <b>System For Fighter Aircraft Operational Readiness Prediction.</b>
                 <a href="https://sffaorp.worps.my.id" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                  <i class="fa fa-plane"></i></a>
-                <!--  <br>
-                  <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
-                  data-toggle="modal" data-target="#sffaorp">
-                    Read Doc
-                    <i class="fa fa-book"></i>
-                </a> -->
               </article>
 
               <article class="col-md-6 tm-article tm-bg-white-transparent">
@@ -169,11 +173,6 @@
                   <a href="https://caorp.worps.my.id" target="_blank" class="btn btn-danger ml-auto mr-0 tm-btn-block">Try It
                     <i class="fa fa-plane"></i>
                 </a>
-             <!--    <br>
-                <a href="#" class="btn btn-danger ml-auto mr-0 tm-btn-block"
-                  data-toggle="modal" data-target="#caorp">Read Doc
-                    <i class="fa fa-book"></i>
-                </a> -->
               </article>
             </div>
             <div class="row">
@@ -189,19 +188,7 @@
           </section>
         </div>
 
-        <div id="tm-section-3" class="parallax-window" data-parallax="scroll" data-image-src="img/3.webp">
-          <section class="container tm-page-1-content">
-            <div class="row1">
-              <div class="col-xl-6 col-md-8 ml-auto">
-                <article class="tm-bg-white-transparent-page3">
-                  <header><h5 class="tm-bg-white">Is Weapon Operational Readiness important?</h5></header>
-                  <p class="tm-bg-white2">The importance of Weapon Operational Readiness, is to avoid some undesirable possibilities, such as accidents, and of course maximize the use of weapons.</p>
-                    <a href="#tm-section-4" class="btn btn-danger tm-btn-right">Read More</a>
-                </article>
-              </div>
-            </div>
-          </section>
-        </div>
+        
 
         <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img/4.jpg">
           <div class="row tm-page-4-content">
@@ -249,7 +236,7 @@
             </div>
           
               <div class="col-lg-12" style="margin-bottom: 1rem;">
-                <div class="row" style="">
+                <div class="row">
 
                   <div class="col-sm-4 cilikkan" style="margin-bottom: 1rem;">
                     <div class="our-team">
@@ -312,13 +299,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-           
-
-          
-            </div>
           </div>
+        </div>
+      </div>
 
 
         <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/5.jpg" 
