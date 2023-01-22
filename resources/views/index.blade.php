@@ -364,8 +364,17 @@
                   <img src="lanud/1.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Library</p>
-                      <p class="opacity-low">Architect Design</p>
+                      <p>Foto Bersama</p>
+                      <p class="opacity-low">WORPS Team & Lanud Abd Saleh</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="lanud/1-1.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Foto Bersama</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Marsekal Pertama TNI Dr. Ir. Arwin Datumaya Wahyudi Sumari, S.T., M.T., IPU, ASEAN Eng.</p>
                     </div>
                   </div> 
                 </div>
@@ -373,8 +382,8 @@
                   <img src="lanud/2.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Night Sky</p>
-                      <p class="opacity-low">Cinematic</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Marsekal Pertama TNI Dr. Ir. Arwin Datumaya Wahyudi Sumari, S.T., M.T., IPU, ASEAN Eng.</p>
                     </div>
                   </div>
                 </div>
@@ -382,8 +391,8 @@
                   <img src="lanud/3.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Tea Talk</p>
-                      <p class="opacity-low">Composite</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Ika Noer Syamsiana, S.T., M.T., Ph.D.</p>
                     </div>
                   </div>
                 </div>
@@ -391,8 +400,8 @@
                   <img src="lanud/4.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Road</p>
-                      <p class="opacity-low">Landscape</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Pramana Yoga Saputra, S.Kom., M.MT.</p>
                     </div>
                   </div> 
                 </div>
@@ -400,17 +409,17 @@
                   <img src="lanud/5.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Sea</p>
-                      <p class="opacity-low">Cityscape</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Farradila Ayu Damayanti, S.Tr.Kom.</p>
                     </div>
                   </div> 
                 </div>
                 <div class="img-box">
-                  <img src="lanud/5.jpeg" alt="" />
+                  <img src="lanud/6.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Vintage</p>
-                      <p class="opacity-low">Cinematic</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Yovita Farah Dela, S.Tr.Kom.</p>
                     </div>
                   </div> 
                 </div>
@@ -418,8 +427,8 @@
                   <img src="lanud/7.jpeg" alt="" />
                   <div class="transparent-box">
                     <div class="caption">
-                      <p>Vintage</p>
-                      <p class="opacity-low">Cinematic</p>
+                      <p>Penyerahan Sertifikat</p>
+                      <p class="opacity-low">Komandan Lanud AbdulRachman Saleh Marsma TNI Zulfahmi, S.Sos, M.Han & Abdulloh Aqil</p>
                     </div>
                   </div> 
                 </div>
