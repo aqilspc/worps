@@ -123,20 +123,115 @@
     margin-left: 3.6em;
   }
 }
+
+.gallery-image {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
       </style>
       </head>
 
       <body>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1.jpg" id="oke1">
+        
+        <div class="parallax-window video-container" data-parallax="scroll"  id="oke1">
+          <video autoplay muted loop id="myVideo">
+        <source src="lanud/profil-lanud-abd-saleh.mp4" type="video/mp4">
+      </video>
           <section class="container tm-page-1-content">
             <div class="row">
-              <div class="col-md-6 ml-auto tm-text-white">
-                <header><h1>WORPS</h1></header>
-                <p>Weapon Operational Readiness Prediction System 
-                <br><br>
-                 In this Regulation of the Minister of Defense, what is meant by: 1. Main Equipment of the Armed Forces System of the Indonesian Armed Forces, hereinafter referred to as the TNI's Alutsista, are the main equipment and its supporters which constitute a weapon system that has the capability to carry out the main tasks of the TNI.
-                </p>
-                  <a href="#tm-section-2" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
+              <div class="col-md-12 ml-auto tm-text-white" align="center">
+                <header ><h1>WORPS</h1></header>
+                <p>Weapon Operational Readiness Prediction System</p>
+                <p>Lanud ABD Saleh</p>
+                  <a href="#tm-section-3" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
                   &nbsp;
               </div>
             </div>
@@ -253,6 +348,84 @@
              <img src="img/sertif2.jpg" class="img-responsive zoom" style="max-height: 512px;">
            </div>
           </div>
+        </div>
+
+        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+             data-image-src="img/5.jpg">
+          <!-- <div class="container "> -->
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
+              <div class="col-xs-12">
+                <header style="color: white;"><h5 align="center">Dokumentasi Bersama Lanud ABD Saleh</h5></header>
+              </div>
+            </div>
+           <!--  <div class="col-lg-12" align="center" style="margin-bottom: 1rem;"> -->
+             <div class="gallery-image">
+                <div class="img-box">
+                  <img src="lanud/1.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Library</p>
+                      <p class="opacity-low">Architect Design</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="lanud/2.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Night Sky</p>
+                      <p class="opacity-low">Cinematic</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="lanud/3.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Tea Talk</p>
+                      <p class="opacity-low">Composite</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-box">
+                  <img src="lanud/4.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Road</p>
+                      <p class="opacity-low">Landscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="lanud/5.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Sea</p>
+                      <p class="opacity-low">Cityscape</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="lanud/5.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Vintage</p>
+                      <p class="opacity-low">Cinematic</p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="img-box">
+                  <img src="lanud/7.jpeg" alt="" />
+                  <div class="transparent-box">
+                    <div class="caption">
+                      <p>Vintage</p>
+                      <p class="opacity-low">Cinematic</p>
+                    </div>
+                  </div> 
+                </div>
+              </div>
+          <!--  </div> -->
+          <!-- </div> -->
         </div>
 
         <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/6.jpeg" 
