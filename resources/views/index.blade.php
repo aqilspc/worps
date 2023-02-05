@@ -54,20 +54,20 @@
                 <li>
                     <a href="#intosystem">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">1. Introduction<span class="leaders" aria-hidden="true"></span></span>
-                        <span data-href="#intosystem" class="page"><span class="visually-hidden">Page&nbsp;</span>3</span>
+                        <span data-href="#intosystem" class="page"><span class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="#runsystem">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">2. Run the System<span class="leaders" aria-hidden="true"></span></span>
-                        <span data-href="#runsystem" class="page"><span class="visually-hidden">Page&nbsp;</span>4</span>
+                        <span data-href="#runsystem" class="page"><span class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="#handoversystem">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">3. System Hand-Over to Abdulrachman Air Force Base<span class="leaders" aria-hidden="true"></span></span>
                         <span data-href="#handoversystem" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>7</span>
+                                class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
                 <li>
@@ -75,20 +75,20 @@
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">4. Copyright of the System<span class="leaders"
                                 aria-hidden="true"></span></span>
                         <span data-href="#copyrightsystem" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>8</span>
+                                class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="#ourteamworps">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">5. The WORPS Team<span class="leaders" aria-hidden="true"></span></span>
                         <span data-href="#ourteamworps" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>9</span>
+                                class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
                 <li>
                     <a href="#Appreciations-team-lanud">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">6. Appreciations from the Commandant of Abdulrachman Air Force Base<span class="leaders" aria-hidden="true"></span></span>
-                        <span data-href="#Appreciations-team-lanud" class="page"><span class="visually-hidden">Page&nbsp;</span>96</span>
+                        <span data-href="#Appreciations-team-lanud" class="page"><span class="visually-hidden">Page&nbsp;</span></span>
                     </a>
                 </li>
               </ol>
