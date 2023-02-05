@@ -28,7 +28,7 @@
             <div class="row">
               <div class="col-md-12 ml-auto tm-text-white" align="center">
                 <header ><h1>WORPS</h1></header>
-                <header ><h3 style="text-shadow: 2px 2px 8px #000000;color: white;">Weapon Operational Readiness Prediction System</h3></header>
+                <header ><h2 style="text-shadow: 2px 2px 8px #000000;color: white;">Weapon Operational Readiness Prediction System</h2></header>
                 <p>Lanud ABD Saleh</p>
                   <a href="#menu-list-section-ol" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
                   &nbsp;
@@ -60,14 +60,14 @@
                 <li>
                     <a href="#runsystem">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">2. Run the System<span class="leaders" aria-hidden="true"></span></span>
-                        <span data-href="#runsystem" class="page"><span class="visually-hidden">Page&nbsp;</span>28</span>
+                        <span data-href="#runsystem" class="page"><span class="visually-hidden">Page&nbsp;</span>4</span>
                     </a>
                 </li>
                 <li>
                     <a href="#handoversystem">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">3. System Hand-Over to Abdulrachman Air Force Base<span class="leaders" aria-hidden="true"></span></span>
                         <span data-href="#handoversystem" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>43</span>
+                                class="visually-hidden">Page&nbsp;</span>7</span>
                     </a>
                 </li>
                 <li>
@@ -75,14 +75,14 @@
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">4. Copyright of the System<span class="leaders"
                                 aria-hidden="true"></span></span>
                         <span data-href="#copyrightsystem" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>67</span>
+                                class="visually-hidden">Page&nbsp;</span>8</span>
                     </a>
                 </li>
                 <li>
                     <a href="#ourteamworps">
                         <span class="title" style="text-shadow: 2px 2px 8px #000000;">5. The WORPS Team<span class="leaders" aria-hidden="true"></span></span>
                         <span data-href="#ourteamworps" class="page"><span
-                                class="visually-hidden">Page&nbsp;</span>83</span>
+                                class="visually-hidden">Page&nbsp;</span>9</span>
                     </a>
                 </li>
                 <li>
