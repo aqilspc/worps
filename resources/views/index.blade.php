@@ -44,7 +44,7 @@
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
               <div class="col-xs-12">
                 <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 100%;">
-                <header style="color: white;text-shadow: 2px 2px 8px #000000;"><h5 align="center">List Of Content</h5></header>
+                <header style="color: white;text-shadow: 2px 2px 8px #000000;color: black;"><h5 align="center">List Of Content</h5></header>
                 </article>
               </div>
             </div>
