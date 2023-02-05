@@ -15,208 +15,7 @@
   <link rel="icon" type="image/x-icon" href="/img/1.jpg">
   <!-- Magnific Popup core CSS file -->
   <link rel="stylesheet" href="css/magnific-popup.css">
-  <style>
-      .our-team{
-
-
-    border-radius: 15px;
-
-    text-align: center;
-
-
-    padding: 20px 15px 30px;
-
-    background: #ffffffc4;
-
-
-}
-
-.our-team .pic{
-
-
-    /*background: #ffffffc4;*/
-
-    padding: 10px;
-
-    margin-bottom: 25px;
-
-
-    display: inline-block;
-
-    width: 100%;
-
-    height: 100%;
-
-    transition: all 0.5s ease 0s;
-
-}
-
-.our-team:hover .pic{
-
-    background: #C66666;
-
-    border-radius: 50%;
-
-}
-
-.pic img{
-
-    width: 100%;
-
-    height: auto;
-
-    border-radius: 50%;
-
-}
-
-.our-team .title{
-
-
-    font-weight: 600;
-
-    color: #2e282a;
-
-    text-transform: capitalize;
-
-
-    display: block;
-
-    font-size: 20px;
-
-    margin: 0 0 7px 0;
-
-}
-
-.our-team .post{
-
-
-    color: black;
-
-    text-transform: capitalize;
-
-
-    display: block;
-
-    font-size: 15px;
-
-    margin-bottom: 15px;
-
-}
-
-@media only screen and (min-width:1025px) {
-  .cilikkan {
-    max-width: 25%;
-    margin-left: 3.6em;
-  }
-}
-
-@media only screen and (min-width:1281px) {
-  .cilikkan {
-    max-width: 25%;
-    margin-left: 3.6em;
-  }
-}
-
-@media only screen and (min-width:961px) {
-  .cilikkan {
-    max-width: 25%;
-    margin-left: 3.6em;
-  }
-}
-
-.gallery-image {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.gallery-image img {
-  height: 250px;
-  width: 350px;
-  transform: scale(1.0);
-  transition: transform 0.4s ease;
-}
-
-.img-box {
-  box-sizing: content-box;
-  margin: 10px;
-  height: 250px;
-  width: 350px;
-  overflow: hidden;
-  display: inline-block;
-  color: white;
-  position: relative;
-  background-color: white;
-}
-
-.caption {
-  position: absolute;
-  bottom: 5px;
-  left: 20px;
-  opacity: 0.0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.transparent-box {
-  height: 250px;
-  width: 350px;
-  background-color:rgba(0, 0, 0, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: background-color 0.3s ease;
-}
-
-.img-box:hover img { 
-  transform: scale(1.1);
-}
-
-.img-box:hover .transparent-box {
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-.img-box:hover .caption {
-  transform: translateY(-20px);
-  opacity: 1.0;
-}
-
-.img-box:hover {
-  cursor: pointer;
-}
-
-.caption > p:nth-child(2) {
-  font-size: 0.8em;
-}
-
-.opacity-low {
-  opacity: 0.5;
-}
-
-.video-container {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.video-container video {
-  min-width: 100%;
-  min-height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.video-container .caption {
-  z-index: 1;
-  position: relative;
-  text-align: center;
-  color: #dc0000;
-  padding: 10px;
-}
-      </style>
+  <link rel="stylesheet" href="css/landing.css">
       </head>
 
       <body>
@@ -229,9 +28,9 @@
             <div class="row">
               <div class="col-md-12 ml-auto tm-text-white" align="center">
                 <header ><h1>WORPS</h1></header>
-                <p>Weapon Operational Readiness Prediction System</p>
+                <header ><h3 style="text-shadow: 2px 2px 8px #000000;color: white;">Weapon Operational Readiness Prediction System</h3></header>
                 <p>Lanud ABD Saleh</p>
-                  <a href="#tm-section-3" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
+                  <a href="#menu-list-section-ol" class="btn btn-danger">Explore Now <i class="fa fa-globe"></i></a>
                   &nbsp;
               </div>
             </div>
@@ -239,7 +38,65 @@
           </section>
         </div>
 
-        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+        <div id="menu-list-section-ol" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+             data-image-src="img/lanud_rar.jpg">
+          <div class="container ">
+            <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
+              <div class="col-xs-12">
+                <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 100%;">
+                <header style="color: white;text-shadow: 2px 2px 8px #000000;"><h5 align="center">List Of Content</h5></header>
+                </article>
+              </div>
+            </div>
+             <!-- role=list necessary because WebKit removes list semantic when list-style-type: none -->
+             <article class="col-md-12 tm-article tm-bg-white-transparent" style="max-width: 100%;">
+              <ol class="toc-list" role="list">
+                <li>
+                    <a href="#intosystem">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">1. Introduction<span class="leaders" aria-hidden="true"></span></span>
+                        <span data-href="#intosystem" class="page"><span class="visually-hidden">Page&nbsp;</span>3</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#runsystem">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">2. Run the System<span class="leaders" aria-hidden="true"></span></span>
+                        <span data-href="#runsystem" class="page"><span class="visually-hidden">Page&nbsp;</span>28</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#handoversystem">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">3. System Hand-Over to Abdulrachman Air Force Base<span class="leaders" aria-hidden="true"></span></span>
+                        <span data-href="#handoversystem" class="page"><span
+                                class="visually-hidden">Page&nbsp;</span>43</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#copyrightsystem">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">4. Copyright of the System<span class="leaders"
+                                aria-hidden="true"></span></span>
+                        <span data-href="#copyrightsystem" class="page"><span
+                                class="visually-hidden">Page&nbsp;</span>67</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#ourteamworps">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">5. The WORPS Team<span class="leaders" aria-hidden="true"></span></span>
+                        <span data-href="#ourteamworps" class="page"><span
+                                class="visually-hidden">Page&nbsp;</span>83</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Appreciations-team-lanud">
+                        <span class="title" style="text-shadow: 2px 2px 8px #000000;">6. Appreciations from the Commandant of Abdulrachman Air Force Base<span class="leaders" aria-hidden="true"></span></span>
+                        <span data-href="#Appreciations-team-lanud" class="page"><span class="visually-hidden">Page&nbsp;</span>96</span>
+                    </a>
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+
+        <div id="intosystem" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
              data-image-src="img/3.webp">
           <div class="container ">
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
@@ -251,7 +108,7 @@
           </div>
         </div>
 
-        <div id="tm-section-2" class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg">
+        <div id="runsystem" class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg">
           <section class="container tm-page-1-content tm-page-2">
             <div class="row">
               <article class="col-md-6 tm-article tm-bg-white-transparent">
@@ -285,7 +142,7 @@
 
         
 
-        <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img/4.jpg">
+        <div id="runsystem1" class="parallax-window" data-parallax="scroll" data-image-src="img/4.jpg">
           <div class="row tm-page-4-content">
             <article  class="col-xs-6 col-md-4 tm-bg-white-transparent">
               <header><h3>Register First</h3></header>
@@ -321,7 +178,7 @@
           </div>
         </div>
 
-        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+        <div id="handoversystem" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
              data-image-src="img/3.webp">
           <div class="container ">
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
@@ -330,12 +187,12 @@
               </div>
             </div>
             <div class="col-lg-12 fullkabeh" align="center" style="margin-bottom: 1rem;">
-             <img src="img/bast.jpg" class="img-responsive zoom" style="max-height: 961px;">
+             <img src="img/bast.jpg" class="img-responsive zoom" style="max-height: 961px;max-width: 300px;">
            </div>
           </div>
         </div>
 
-        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+        <div id="copyrightsystem" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
              data-image-src="img/4.jpg">
           <div class="container ">
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
@@ -350,7 +207,7 @@
           </div>
         </div>
 
-        <div id="tm-section-3" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
+        <div id="Appreciations-team-lanud" class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" 
              data-image-src="img/5.jpg">
           <!-- <div class="container "> -->
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
@@ -438,7 +295,7 @@
         </div>
 
         <div class="parallax-window tm-position-relative tm-form-section" data-parallax="scroll" data-image-src="img/6.jpeg" 
-             id="team">
+             id="ourteamworps">
           <div class="container ">
             <div class="row1" style="margin-bottom: 2rem;margin-top: 2em;">
               <div class="col-xs-12">
